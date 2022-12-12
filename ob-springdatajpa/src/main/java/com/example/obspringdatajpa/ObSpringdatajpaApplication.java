@@ -16,13 +16,13 @@ public class ObSpringdatajpaApplication {
 		//System.out.println(repository.count());
 
 		// crear y almacenar un coche en base de datos
-		//Coche toyota = new Coche(null, "Toyota", "Prius", 2010);
+		Coche toyota = new Coche(null, "Toyota", "Prius", 2010);
 		//repository.save(toyota);
 
-		//System.out.println("El número de coches es: "+repository.count());
+		System.out.println("El número de coches es: "+repository.count());
 
 		// recuperar un coche por id
-		//System.out.println(repository.findAll());
+		System.out.println(repository.findAll());
 
 
 	}
