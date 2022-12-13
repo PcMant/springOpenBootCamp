@@ -13,7 +13,7 @@ public class ObSpringdatajpaApplication {
 		CocheRepository repository = context.getBean(CocheRepository.class);
 
 		System.out.println("find");
-		System.out.println(repository.count());
+		//System.out.println(repository.count());
 
 		// crear y almacenar un coche en base de datos
 		Coche toyota = new Coche(null, "Toyota", "Prius", 2010);

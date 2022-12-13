@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Coche {
 
+
     // Atributos encapsulados
     // Cuándo trabajamos con bases de datos es importante que podamos tener valores nulos
     @Id
@@ -15,18 +16,18 @@ public class Coche {
     private Long id; // Es un valor numérico que permite valores nulos
     private String manufacturer;
     private String model;
-    private Integer year;
+    private Integer yearr;
 
     // Constructores
 
     public Coche() {
     }
 
-    public Coche(Long id, String manufacturer, String model, Integer year) {
+    public Coche(Long id, String manufacturer, String model, Integer yearr) {
         this.id = id;
         this.manufacturer = manufacturer;
         this.model = model;
-        this.year = year;
+        this.yearr = yearr;
     }
 
     // getter y setter
@@ -55,12 +56,12 @@ public class Coche {
         this.model = model;
     }
 
-    public Integer getYear() {
-        return year;
+    public Integer getYearr() {
+        return yearr;
     }
 
-    public void setYear(Integer year) {
-        this.year = year;
+    public void setYearr(Integer yearr) {
+        this.yearr = yearr;
     }
 
 
@@ -71,7 +72,7 @@ public class Coche {
                 "id=" + id +
                 ", manufacturer='" + manufacturer + '\'' +
                 ", model='" + model + '\'' +
-                ", year=" + year +
+                ", year=" + yearr +
                 '}';
     }
 }
