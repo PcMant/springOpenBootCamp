@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="feda4a62-acc9-45d9-86b3-2d7f710e00c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/src/main/java/com/example/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/src/main/java/com/example/GestorFacturas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/src/main/java/com/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/classes/com/example/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/classes/com/example/GestorFacturas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/classes/com/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld.bk/target/ob-spring-helloworld-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/src/main/java/com/example/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/src/main/java/com/example/GestorFacturas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/src/main/java/com/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/target/classes/com/example/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/target/classes/com/example/GestorFacturas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-helloworld/target/classes/com/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/src/main/java/com/example/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/src/main/java/com/example/GestorFacturas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/src/main/java/com/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/target/classes/com/example/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/target/classes/com/example/GestorFacturas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-spring-scan/target/classes/com/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/src/main/java/com/example/obspringdatajpa/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/src/main/java/com/example/obspringdatajpa/CocheRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/src/main/java/com/example/obspringdatajpa/ObSpringdatajpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ob-springdatajpa/src/test/java/com/example/obspringdatajpa/ObSpringdatajpaApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IsaOKEkrdoL0GJHbAUsqq448HQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feda4a62-acc9-45d9-86b3-2d7f710e00c1" name="Changes" comment="" />
+      <created>1670972712997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670972712997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
