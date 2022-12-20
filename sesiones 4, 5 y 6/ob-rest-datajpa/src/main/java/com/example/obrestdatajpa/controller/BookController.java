@@ -58,7 +58,8 @@ public class BookController {
     // crear un nuevo libro en base de datos
     @PostMapping("/api/books")
     public Book create(@RequestBody Book book, @RequestHeader HttpHeaders headers){
-        // guardar el libro recibido por parametro en la base de datos
+        System.out.println(headers.get("User-Agent"));
+        // guardar el libro recibido por parámetro en la base de datos
         return bookRepository.save(book);
     }
 

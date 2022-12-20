@@ -3,6 +3,8 @@ package com.example.ejerciciosSesiones4_5_6.controller;
 import com.example.ejerciciosSesiones4_5_6.entities.Latop;
 import com.example.ejerciciosSesiones4_5_6.repository.LatopRepository;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -19,5 +21,10 @@ public class LatopController {
     @GetMapping("/api/latops")
     public List<Latop> findAll(){
         return latopRepository.findAll();
+    }
+
+    @PostMapping("/api/latops")
+    public Latop create(@RequestBody Latop latop){
+        return latopRepository.save(latop);
     }
 }
