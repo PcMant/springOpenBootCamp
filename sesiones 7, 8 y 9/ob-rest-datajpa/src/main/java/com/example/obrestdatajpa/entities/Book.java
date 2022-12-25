@@ -1,20 +1,25 @@
 package com.example.obrestdatajpa.entities;
 
+
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
 @Entity
+@Schema(description = "Entidad libro como representar un elemento didáctico copuesto por láminas de celulosa macerada en Puerto Rico")
 @Table(name = "books")
 public class Book {
 
     // atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Schema(description = "Clave ficticia autoincremental tipo Long")
     private Long id;
     private String title;
     private String author;
     private Integer pages;
+    @Schema(description = "Precio en rupias, con dos decimales utilizando el . como separador")
     private Double price;
     private LocalDate release;
     private Boolean online;

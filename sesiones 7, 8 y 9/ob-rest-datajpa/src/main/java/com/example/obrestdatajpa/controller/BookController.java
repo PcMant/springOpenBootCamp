@@ -2,11 +2,16 @@ package com.example.obrestdatajpa.controller;
 
 import com.example.obrestdatajpa.entities.Book;
 import com.example.obrestdatajpa.repository.BookRepository;
+
+import io.swagger.v3.oas.annotations.Hidden;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 import java.util.Optional;
@@ -45,8 +50,9 @@ public class BookController {
      * @return
      */
     @GetMapping("/api/books/{id}")
+    @Operation(description = "Buscar un libro por clave primaria id Long")
     // Para poderle pasar el parámetro de la URL por la función hay que usar la anotación @PathVariable
-    public ResponseEntity<Book> findOneById(@PathVariable Long id){
+    public ResponseEntity<Book> findOneById(@Parameter(description = "Clave primaria tipo Long") @PathVariable Long id){
 
         Optional<Book> bookOpt = bookRepository.findById(id);
         // Se comprueba si existe o no el libro solicitado por id
@@ -121,6 +127,7 @@ public class BookController {
      * Eliminar todos los libros
      * @return
      */
+    @Hidden // Ignorar este método para que no aparezca en la documentación
     @DeleteMapping("/api/books")
     public ResponseEntity<Book> deleteAll(){
         // Para hacer log al depurar
