@@ -15,7 +15,11 @@ Los métodos CRUD:
 ## Ejercicio 2
 
 Implementar swagger sobre el API REST de Laptop y verificar que funciona en la
-URL: [http://localhost:8081/swagger-ui/](http://localhost:8081/swagger-ui/)
+URL: [http://localhost:8081/swagger-ui/](http://localhost:8081/swagger-ui/).
+
+**Nota**: Debido a que la librería swagger utilizada en las sesiones es
+incompatible con Spring Boot 3 y su falta de mantenimiento, he tenido que usar
+otra librería que si lo es. [https://springdoc.org/v2/](https://springdoc.org/v2/)
 
 ## Ejercicio 3
 
