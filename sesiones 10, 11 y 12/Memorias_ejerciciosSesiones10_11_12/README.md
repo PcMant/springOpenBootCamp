@@ -51,16 +51,16 @@ del nuevo modo mirar la documentación oficial.
 [https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter](https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter)
 
 Además no olvidar añadir la siguiente dependencia al fichero "pomp.xml":
-
 ```xml
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
-</dependency>
-
-<dependency>
-    <groupId>org.springframework.security</groupId>
-    <artifactId>spring-security-test</artifactId>
-    <scope>test</scope>
+    <version>3.0.0</version>
 </dependency>
 ```
+[Spring Boot Starter Security desde el repositorio Maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security)
+
+**Nota**: Si se quiere hacer un deploit nuevamente, es importante modificar los casos de test
+para que se autentiquen en las peticiones y en la configuración de Spring Security deshabilitar
+el csrf, de lo contrario todo lo que no sean peticiones GET serán denegadas aun estando autenticado y tengas acceso a los endpoints o rutas.
