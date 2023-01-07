@@ -23,16 +23,12 @@ del nuevo modo mirar la documentación oficial.
 [https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter](https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter)
 
 Además no olvidar añadir la siguiente dependencia al fichero "pomp.xml":
-
 ```xml
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
-</dependency>
-
-<dependency>
-    <groupId>org.springframework.security</groupId>
-    <artifactId>spring-security-test</artifactId>
-    <scope>test</scope>
+    <version>3.0.0</version>
 </dependency>
 ```
+[Spring Boot Starter Security desde el repositorio Maven](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security)
