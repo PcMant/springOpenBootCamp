@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.Parameter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -58,6 +59,7 @@ public class LatopController {
      * @return
      */
     @PostMapping("/api/latops")
+    @PreAuthorize("hasRole('USER')")
     @Operation(description = "Crear una nueva latop en la base de datos")
     public ResponseEntity<Latop> create(@RequestBody Latop latop){
 
@@ -76,6 +78,7 @@ public class LatopController {
      * @return
      */
     @PutMapping("/api/latops")
+    @PreAuthorize("hasRole('USER')")
     @Operation(description = "Actualizar un latop de la base de datos")
     public ResponseEntity<Latop> update( @RequestBody Latop latop){
         if(latop.getId() == null){
@@ -93,6 +96,7 @@ public class LatopController {
      * @return
      */
     @DeleteMapping("/api/latops/{id}")
+    @PreAuthorize("hasRole('USER')")
     @Operation(description = "Eliminar una latop de la base de datos")
     public ResponseEntity<Latop> delete(@Parameter(description = "Clave primaria de tipo Long") @PathVariable Long id){
         if(!latopRepository.existsById(id)){
@@ -110,6 +114,7 @@ public class LatopController {
      */
     @Hidden
     @DeleteMapping("/api/latops")
+    @PreAuthorize("hasRole('USER')")
     public ResponseEntity<Latop> deleteAll(){
         log.info("REST Request for delete all books");
         latopRepository.deleteAll();

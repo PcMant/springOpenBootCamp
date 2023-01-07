@@ -28,7 +28,7 @@ class LatopControllerTest {
 
     @BeforeEach
     void setUp() {
-        restTemplateBuilder = restTemplateBuilder.rootUri("http://localhost:"+port);
+        restTemplateBuilder = restTemplateBuilder.rootUri("http://localhost:"+port).basicAuthentication("user1", "password");
         testRestTemplate = new TestRestTemplate(restTemplateBuilder);
     }
 
@@ -76,5 +76,7 @@ class LatopControllerTest {
 
         assertEquals(1L, result.getId());
         assertEquals("New pepine", result.getModel());
+//        assertEquals(HttpStatus.UNAUTHORIZED, response.getStatusCode());
+
     }
 }
